@@ -34,7 +34,9 @@
 .tabTitle{
     /* height: 300px; */
     display:block;
-    margin: auto;
+    /* margin: auto; */
+    /* width: 100%; */
+    
     
 }
 .tabTitle_text{
@@ -79,9 +81,11 @@
     display:block;
     margin: auto;
     padding: 10px;
+    padding-top: 0px;
 }
 .slider .tab .item{
     padding: 10px;
+    padding-top: 25px;
     width: 300px;
     height: 45px;
 }
@@ -115,6 +119,16 @@
 .body h4{
     font-size: 22px;
     padding-top: 10px;
+}
+
+.body .comp p{
+    padding-top: 25px;
+    font-weight: 100;
+}
+
+.body .container .expText p{
+    padding-top: 13px;
+    font-weight: 100;
 }
 
 .body p{
@@ -151,9 +165,9 @@
     /* font-weight: 500; */
     height: auto;
 }
-.container p{
+/* .container p{
     padding-top: 10px;
-}
+} */
 .cotainer-body{
     padding: 60px;
     height:100vh;
@@ -197,5 +211,44 @@
 }
 .C{
     font-size: 10px;
+    font-weight: 100;
+}
+
+a:link{
+    text-decoration:none;
+    color: #000;
+    /* background-color:#ffffff; */
+}
+a:visited {
+    /* text-decoration:none; */
+    color: #000;
+    /* background-color:red; */
+}
+a:hover {
+    text-decoration:underline;
+    /* background-color:#fafafa; */
+    color:gray;
+}
+.column{
+    /* width: 100%; */
+    display: flex;
+    /* margin:auto; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* width: 50%; */
+    /* align-items: center; */
+    /* background-color: #D9E8F5; */
+}
+
+.body .column .T1{
+    padding: 0px;
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.body .column .T2{
+    padding: 0px;
+    font-size: 15px;
     font-weight: 100;
 }
